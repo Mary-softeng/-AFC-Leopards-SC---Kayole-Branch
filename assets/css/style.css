@@ -11,12 +11,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #5534eb;
+  color: #0568bf;
 }
 
 a {
   text-decoration: none;
-  color: #5534eb;
+  color: #0568bf;
 }
 
 a:hover {
@@ -40,10 +40,9 @@ h6 {
 
 /* Set the width and height to make the logo smaller */
 .logo img {
-  width: 50px; /* Adjust the width as needed */
+  width: 100px; /* Adjust the width as needed */
  /* height: 70px;  Automatically adjust the height to maintain the aspect ratio */
-  max-height: 40px;
-  border-radius: 50%;
+ border-radius: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -56,7 +55,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5534eb;
+  background: #0568bf;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -70,7 +69,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #5534eb;
+  background: #0568bf;
   color: #fff;
 }
 
@@ -83,10 +82,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #5534eb;
+  background: #0568bf;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #header.header-scrolled {
@@ -109,10 +108,11 @@ h6 {
 
 #header .logo a {
   color: #556270;
+
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 90px;
 }
 
 /*--------------------------------------------------------------
@@ -481,7 +481,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #5534eb;
+  background: #0568bf;
 }
 
 #hero .btn-get-started {
@@ -496,7 +496,7 @@ h6 {
   line-height: 1;
   color: #fff;
   animation-delay: 0.8s;
-  background: #5534eb;
+  background: #0568bf;
 }
 
 #hero .btn-get-started:hover {
@@ -567,7 +567,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5534eb;
+  background: #0568bf;
   margin: 4px 10px;
 }
 
